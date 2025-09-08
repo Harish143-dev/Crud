@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = 'http://localhost:3000'
+const URL = 'https://crud-backend-ffsw.onrender.com'
 
 export const getUsers = async () => {
 
