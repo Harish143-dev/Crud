@@ -19,7 +19,7 @@ module.exports = {
             database = client.db('Crud')  // select database
             console.log('Mongo DB Connect')
         } catch (err) {
-            console.err('Mongo DB Error :)', err)
+            console.error('Mongo DB Error :)', err)
             process.exit(1)
         }
     },
