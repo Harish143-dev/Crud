@@ -15,7 +15,7 @@ app.use(userRoutes)
 app.listen(PORT, () => {
 
     try {
-        connect.connectToserver()
+        connect.connectToServer()
         console.log(`server running on ${PORT}`)
     } catch (err) {
         console.log(err);

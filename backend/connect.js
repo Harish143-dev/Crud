@@ -13,7 +13,7 @@ const client = new MongoClient(process.env.URI, {
 let database
 
 module.exports = {
-    connectToserver: async () => {
+    connectToServer: async () => {
         try {
             await client.connect() // connect to mongodb
             database = client.db('Crud')  // select database
